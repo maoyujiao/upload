@@ -36,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         Toast.makeText(this,"",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"123",Toast.LENGTH_SHORT).show();
+
         return true;
 
     }
